@@ -19,10 +19,16 @@
   },
   "homepage": "https://github.com/G-Poiz/Cher-Asile#readme",
   "dependencies": {
+    "autoprefixer": "^10.1.0",
     "lodash": "^4.17.20",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "postcss-nested": "^5.0.3",
+    "postcss-simple-vars": "^6.0.2"
   },
   "devDependencies": {
+    "css-loader": "^5.0.1",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"
